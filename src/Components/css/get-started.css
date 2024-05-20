@@ -1,0 +1,158 @@
+.phishdefender-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  background: linear-gradient(269.84deg, #013723 0.14%, #00322E 22.27%, #051D40 59.97%, #442F67 99.86%);
+  background: linear-gradient(269.84deg, color(display-p3 0.078 0.212 0.145) 0.14%, color(display-p3 0.059 0.192 0.180) 22.27%, color(display-p3 0.043 0.110 0.243) 59.97%, color(display-p3 0.255 0.184 0.392) 99.86%);
+}
+
+.phishdefender-navbar {
+  display: flex;
+  justify-content: flex-end;
+  align-items: right;
+
+}
+
+.phishdefender-navbar-right {
+  display: flex;
+  margin-left: 100vh;
+  align-items: right;
+}
+
+.phishdefender-button {
+  font-size: 20px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.download-button {
+  background-color: unset;
+  color: #fff;
+}
+
+.about-button {
+  background-color: unset;
+  color: #ffff;
+}
+
+.phishdefender-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+
+
+.phishdefender-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+.phishdefender-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 50px;
+  flex: 1;
+}
+
+.phishdefender-title {
+  font-size: 50px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.phishdefender-description {
+  font-size: 20px;
+  margin-bottom: 40px;
+  max-width: 500px;
+  color: #fff;
+}
+
+.phishdefender-button-container {
+  display: flex;
+  justify-content: left;
+  flex: 1;
+}
+
+.get-started-button {
+  background-color: unset;
+  color: #FFFF;
+  padding: 15px 40px;
+  font-size: 24px;
+  border-radius: 10px;
+  border: 2px solid #FDFD96;
+  cursor: pointer;
+}
+
+.phishdefender-button:hover {
+  background-color: #0B1C3E;
+  border: solid #FDFD96;
+}
+
+/* Responsive Styles for Small Screens */
+@media screen and (max-width: 768px) {
+  .phishdefender-navbar-right {margin-right: 100vh;
+  }
+
+  .phishdefender-body {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .phishdefender-content-container {
+    margin-left: 0;
+    margin-top: 50vh;
+  }
+
+
+  .phishdefender-title {
+    font-size: 40px;
+  }
+
+  .phishdefender-description {
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .get-started-button {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .phishdefender-image-container {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 20px;
+  }
+}
+
+/* Responsive Styles for Extra Small Screens */
+@media screen and (max-width: 480px) {
+  .phishdefender-title {
+    font-size: 30px;
+  }
+
+  .phishdefender-description {
+    font-size: 16px;
+  }
+
+  .phishdefender-image-container {
+    width: 100px;
+    height: 100px;
+  }
+
+  .get-started-button {
+    font-size: 20px;
+  }
+}

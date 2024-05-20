@@ -1,0 +1,90 @@
+.phishdefender-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #f5f5f5;
+}
+
+.phishdefender-title {
+  align-self: start;
+  font-size: 48px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+.phishdefender-text {
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 50px;
+  text-align: start;
+}
+
+.phishdefender-features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.phishdefender-feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  margin: 20px;
+  background-color: unset;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  border: solid #FDFD96;
+}
+
+.phishdefender-feature-title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.phishdefender-feature-text {
+  font-size: 18px;
+  color: #fff;
+  text-align: center;
+}
+
+.phishdefender-cta {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.phishdefender-button {
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  background-color: unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.phishdefender-button-AboutUs {
+  justify-content: end;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 30px;
+  border: none;
+  background-color: unset;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.phishdefender-button:hover {
+  background-color: #0B1C3E;
+  border: solid #FDFD96;
+}
