@@ -19,38 +19,42 @@ const description = () => {
           </Link>
         </div>
       </div>
-      <div className="phishdefender-title">PhishDefender</div>
+      <div className="phishdefender-title-h"><span className="sub-phish">Phish</span>Defender</div>
       <div className="phishdefender-text">
-        A tool that can detect whether a link or site is a phishing site.
+        A tool that can detect phishing websites.
       </div>
       <div className="phishdefender-features">
-        <div className="phishdefender-feature">
-          <div className="phishdefender-feature-title">Real-time analysis</div>
-          <div className="phishdefender-feature-text">
-            Easily detect phishing links in real-time.
+        <div className="class-1">
+          <div className="phishdefender-feature">
+            <div className="phishdefender-feature-title">Real-time analysis</div>
+            <div className="phishdefender-feature-text">
+              Easily detect phishing links in real-time.
+            </div>
+          </div>
+          <div className="phishdefender-feature">
+            <div className="phishdefender-feature-title">Deceptive URLs</div>
+            <div className="phishdefender-feature-text">
+              Identifies deceptive URLs commonly associated with phishing.
+            </div>
           </div>
         </div>
-        <div className="phishdefender-feature">
-          <div className="phishdefender-feature-title">Deceptive URLs</div>
-          <div className="phishdefender-feature-text">
-            Identifies deceptive URLs commonly associated with phishing.
+        <div className="class-1">
+          <div className="phishdefender-feature">
+            <div className="phishdefender-feature-title">Fake login pages</div>
+            <div className="phishdefender-feature-text">
+              Identifies fake login pages that may attempt to trick users.
+            </div>
           </div>
-        </div>
-        <div className="phishdefender-feature">
-          <div className="phishdefender-feature-title">Fake login pages</div>
-          <div className="phishdefender-feature-text">
-            Identifies fake login pages that may attempt to trick users.
-          </div>
-        </div>
-        <div className="phishdefender-feature">
-          <div className="phishdefender-feature-title">Suspicious redirects</div>
-          <div className="phishdefender-feature-text">
-            Identifies suspicious redirects that may lead to malicious websites.
+          <div className="phishdefender-feature">
+            <div className="phishdefender-feature-title">Suspicious redirects</div>
+            <div className="phishdefender-feature-text">
+              Identifies suspicious redirects that may lead to malicious websites.
+            </div>
           </div>
         </div>
       </div>
       <div className="phishdefender-cta">
-        <button className="phishdefender-button">Download</button>
+        {/* <button className="phishdefender-button">Download</button> */}
 
       </div>
     </div>

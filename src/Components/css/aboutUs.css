@@ -1,23 +1,24 @@
 
 .about-us-container {
   font-family: Arial, sans-serif;
+  align-items: center;
+  padding-bottom: 100px;
 }
 
 .about-us-header {
   background-color: unset;
   color: #fff;
-  padding: 20px;
   text-align: center;
 }
 
 .about-us-content {
   max-width: 100vh;
-  margin: 0 auto;
+  margin: auto;
 
 }
 
 .about-us-section {
-  margin-bottom: 30px;
+  width: 800px;
 }
 
 .about-us-section {
@@ -28,12 +29,19 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: 0;
 }
 
 .team-member {
-  width: 100px;
-  margin: 20px;
+  width: 150px;
+  margin: 10px 10px 0px 10px;
   text-align: center;
+  border: 3px solid #FF6A3B;
+  padding: 10px;
+  border-radius: 10px;
+}
+.div-j{
+  margin: 40px;
 }
 
 .team-member img {
@@ -41,3 +49,8 @@
   border-radius: 50%;
 }
 
+.o-g{
+  text-align: justify;
+  color: white;
+  width: 800px;
+}
