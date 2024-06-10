@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div className="phishdefender-container">
           <Helmet>
-            <title>About Us</title>
+            <title>PhishDefender | About Us</title>
             <link rel="icon" type="png" href={icon} sizes="32x32" />
           </Helmet>
         <Routes>
